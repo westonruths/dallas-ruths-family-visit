@@ -3,260 +3,202 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Dallas Ruths Family Visit meal plan and activities for July 16–18, 2026.">
-  <meta name="theme-color" content="#173f35">
+  <meta name="description" content="Dallas Ruths Family Visit — meals, hikes, and a simple July 16–18 itinerary.">
+  <meta name="theme-color" content="#ffffff">
   <title>Dallas Ruths Family Visit</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header class="hero">
+  <header class="site-header">
     <nav aria-label="Page navigation">
       <a class="brand" href="#top">Dallas Ruths Family Visit</a>
-      <span>July 16–18, 2026</span>
-    </nav>
-    <div class="hero-copy" id="top">
-      <p class="eyebrow">Meals first · Activities after</p>
-      <h1>Dallas Ruths Family Visit</h1>
-      <p class="lede">A simple Thursday–Saturday plan built around shared meals, a Friday hike, the CSA farm pickup, and a relaxed visit to Chateau Ste. Michelle.</p>
-      <div class="chips" aria-label="Decision criteria">
-        <span>Meals planned Thu–Sat</span>
-        <span>Friday hike</span>
-        <span>CSA farm pickup</span>
-        <span>Friday at the Chateau</span>
+      <div class="nav-links">
+        <a href="#meals">Meals</a>
+        <a href="#hikes">Hikes</a>
+        <a href="#itinerary">Itinerary</a>
       </div>
-    </div>
+      <span class="nav-date">July 16–18</span>
+    </nav>
   </header>
 
-  <main>
-    <section class="meals" aria-labelledby="meal-plan">
+  <main id="top">
+    <section class="hero shell" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="kicker">July 16–18, 2026 · Washington</p>
+        <h1 id="page-title">Dallas Ruths Family Visit</h1>
+        <p class="hero-lede">Three easy days of shared meals, waterfalls, wine country, and a relaxed send-off.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#meals">See the plan</a>
+          <a class="button secondary" href="#hikes">Choose a hike</a>
+        </div>
+        <dl class="trip-facts">
+          <div><dt>Friday</dt><dd>Hike + Chateau</dd></div>
+          <div><dt>Saturday</dt><dd>CSA + SEA</dd></div>
+          <div><dt>Flight</dt><dd>3:21 p.m.</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-gallery" aria-label="Featured trip views">
+        <figure class="hero-main-photo">
+          <img src="assets/images/snoqualmie-falls.webp" alt="Snoqualmie Falls dropping into a forested river valley" width="1080" height="700">
+          <figcaption>Snoqualmie Falls · Friday option</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/images/franklin-falls.webp" alt="Franklin Falls pouring into a mountain pool" width="1080" height="700">
+          <figcaption>Franklin Falls</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/images/paradise-valley.webp" alt="Mossy forest trail in Paradise Valley" width="1080" height="700">
+          <figcaption>Paradise Valley</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section shell" id="meals" aria-labelledby="meals-title">
       <div class="section-heading">
-        <p class="eyebrow">Start here · At the table</p>
-        <h2 id="meal-plan">Meals for the visit</h2>
-        <p>Thursday dinner through Saturday breakfast, with Friday lunch out after the hike.</p>
+        <p class="kicker">First: food</p>
+        <h2 id="meals-title">Meals by day</h2>
       </div>
-      <div class="meal-days">
-        <article class="meal-day">
-          <p class="day-label">Thursday</p>
-          <div class="meal-row">
-            <span>Dinner</span>
-            <strong>Chicken quesadillas</strong>
-          </div>
+
+      <div class="meal-grid">
+        <article class="meal-card">
+          <div class="day-heading"><span>Thu</span><h3>Thursday</h3></div>
+          <div class="meal-item"><span>Dinner</span><strong>Chicken quesadillas</strong></div>
         </article>
 
-        <article class="meal-day featured-day">
-          <p class="day-label">Friday</p>
-          <div class="meal-row">
-            <span>Breakfast</span>
-            <strong>Pancakes, eggs &amp; sausage</strong>
-          </div>
-          <div class="meal-row">
-            <span>Lunch</span>
-            <strong>Restaurant after the hike</strong>
-            <small>Venue to be chosen with the hike.</small>
-          </div>
-          <div class="meal-row">
-            <span>Dinner</span>
-            <strong>Steak &amp; chow mein</strong>
-          </div>
+        <article class="meal-card featured">
+          <div class="day-heading"><span>Fri</span><h3>Friday</h3></div>
+          <div class="meal-item"><span>Breakfast</span><strong>Pancakes, eggs &amp; sausage</strong></div>
+          <div class="meal-item"><span>Lunch</span><strong>Restaurant after the hike</strong><small>Restaurant TBD</small></div>
+          <div class="meal-item"><span>Dinner</span><strong>Steak &amp; chow mein</strong></div>
         </article>
 
-        <article class="meal-day">
-          <p class="day-label">Saturday</p>
-          <div class="meal-row">
-            <span>Breakfast</span>
-            <strong>Hash browns, eggs &amp; sausage</strong>
-          </div>
+        <article class="meal-card">
+          <div class="day-heading"><span>Sat</span><h3>Saturday</h3></div>
+          <div class="meal-item"><span>Breakfast</span><strong>Hash browns, eggs &amp; sausage</strong></div>
         </article>
       </div>
     </section>
 
-    <section class="recommendation activity-intro" aria-labelledby="activities-call">
-      <p class="eyebrow">Then get out together</p>
-      <h2 id="activities-call">Activities for the visit</h2>
-      <p>Friday centers on a family hike, lunch out, and a 3:00 p.m. Chateau tasting. Saturday stays intentionally light: CSA pickup if its window fits, packing, and an unhurried airport departure.</p>
-    </section>
-
-    <div class="subsection-heading">
-      <p class="eyebrow">Friday morning · Hike</p>
-      <h2>Franklin for the hike. Snoqualmie for the icon. Paradise for little legs.</h2>
-      <p>Every card opens its exact AllTrails route. Snoqualmie Falls is the most famous view; Franklin feels most like a real family hike; Paradise Valley gives the three-year-old the best chance of walking the entire route.</p>
-    </div>
-
-    <section class="cards" aria-label="Hike options">
-      <a class="hike-card franklin" href="https://www.alltrails.com/trail/us/washington/franklin-falls-trail" target="_blank" rel="noopener noreferrer" aria-label="Open Franklin Falls Trail on AllTrails">
-        <div class="card-art">
-          <img src="assets/images/franklin-falls.webp" alt="Franklin Falls pouring from a rocky cliff into its pool beneath the mountain forest" width="1080" height="700">
-          <span class="badge">Best overall</span>
-          <span class="photo-label">Trail photo · AllTrails</span>
+    <section class="section shell" id="hikes" aria-labelledby="hikes-title">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="kicker">Friday morning</p>
+          <h2 id="hikes-title">Choose the view</h2>
         </div>
-        <div class="card-body">
-          <div class="card-title-row">
-            <div>
-              <p class="location">Snoqualmie Pass</p>
-              <h2>Franklin Falls</h2>
-            </div>
-            <span class="arrow" aria-hidden="true">↗</span>
-          </div>
-          <p class="pitch">A short, shaded river hike ending at a memorable 70-foot waterfall.</p>
-          <div class="stats" aria-label="Trail statistics">
-            <div><strong>2.0 mi</strong><span>round trip</span></div>
-            <div><strong>400 ft</strong><span>gain</span></div>
-            <div><strong>~2 hr</strong><span>with kids</span></div>
-          </div>
-          <ul>
-            <li><strong>Why pick it:</strong> the strongest scenic payoff for visiting family.</li>
-            <li><strong>Three-year-old plan:</strong> feasible in sections; one adult should be his designated carry backup.</li>
-            <li><strong>Kid boundary:</strong> stop at the main viewpoint—the optional final rock approach is narrow, wet, and slippery.</li>
-            <li><strong>Friday wrinkle:</strong> allow extra drive time for the eastbound I-90 lane closure near SR 18.</li>
-          </ul>
-          <span class="cta">Open exact trail in AllTrails</span>
-        </div>
-      </a>
-
-      <a class="hike-card snoqualmie" href="https://www.alltrails.com/trail/us/washington/snoqualmie-falls-trail" target="_blank" rel="noopener noreferrer" aria-label="Open Snoqualmie Falls Trail on AllTrails">
-        <div class="card-art">
-          <img src="assets/images/snoqualmie-falls.webp" alt="Snoqualmie Falls dropping into the river below a forested cliff under a blue summer sky" width="1080" height="700">
-          <span class="badge">Most iconic</span>
-          <span class="photo-label">Trail photo · AllTrails</span>
-        </div>
-        <div class="card-body">
-          <div class="card-title-row">
-            <div>
-              <p class="location">Snoqualmie · Upper &amp; lower falls</p>
-              <h2>Snoqualmie Falls Trail</h2>
-            </div>
-            <span class="arrow" aria-hidden="true">↗</span>
-          </div>
-          <p class="pitch">A short, steep descent to Washington’s famous 268-foot waterfall, with an immediate upper overlook.</p>
-          <div class="stats" aria-label="Trail statistics">
-            <div><strong>1.4 mi</strong><span>out &amp; back</span></div>
-            <div><strong>328 ft</strong><span>gain</span></div>
-            <div><strong>0.5–1 hr</strong><span>listed time</span></div>
-          </div>
-          <ul>
-            <li><strong>Why pick it:</strong> the most recognizable Washington view—270 feet of waterfall and a <em>Twin Peaks</em> landmark.</li>
-            <li><strong>Three-year-old plan:</strong> start with the upper overlook, about 200 accessible feet from parking; the full trail needs an adult carry backup for the steep return.</li>
-            <li><strong>Kid boundary:</strong> stay on the signed trail, boardwalk, and fenced overlooks; the official guide says it is unsafe to continue beyond the boardwalk.</li>
-            <li><strong>Logistics:</strong> free parking, open dawn–dusk, expect crowds; about 43 minutes to the Chateau.</li>
-          </ul>
-          <span class="cta">Open exact trail in AllTrails</span>
-        </div>
-      </a>
-
-      <a class="hike-card paradise" href="https://www.alltrails.com/trail/us/washington/ephemeral-and-big-leaf-loop" target="_blank" rel="noopener noreferrer" aria-label="Open Ephemeral and Big Leaf Loop on AllTrails">
-        <div class="card-art">
-          <img src="assets/images/paradise-valley.webp" alt="A mossy forest path winding through tall trees on the Ephemeral and Big Leaf Loop" width="1080" height="700">
-          <span class="badge">Best for little legs</span>
-          <span class="photo-label">Trail photo · AllTrails</span>
-        </div>
-        <div class="card-body">
-          <div class="card-title-row">
-            <div>
-              <p class="location">Paradise Valley · Woodinville</p>
-              <h2>Ephemeral &amp; Big Leaf Loop</h2>
-            </div>
-            <span class="arrow" aria-hidden="true">↗</span>
-          </div>
-          <p class="pitch">A gentle forest loop with minimal climbing and a pond, inside a proven family favorite.</p>
-          <div class="stats" aria-label="Trail statistics">
-            <div><strong>2.0 mi</strong><span>loop</span></div>
-            <div><strong>82 ft</strong><span>gain</span></div>
-            <div><strong>0.5–1 hr</strong><span>listed time</span></div>
-          </div>
-          <ul>
-            <li><strong>Why pick it:</strong> lowest-stress option and the best chance the three-year-old walks all of it.</li>
-            <li><strong>Known fit:</strong> Paradise Valley was already a family 5/5—shaded, interesting, flexible, and close.</li>
-            <li><strong>Tradeoff:</strong> lovely woods rather than a dramatic destination view.</li>
-            <li><strong>Logistics:</strong> no parking pass; easy to shorten if anyone fades.</li>
-          </ul>
-          <span class="cta">Open exact trail in AllTrails</span>
-        </div>
-      </a>
-    </section>
-
-    <section class="plan" aria-labelledby="friday-plan">
-      <div>
-        <p class="eyebrow">Friday plan</p>
-        <h2 id="friday-plan">If the group is undecided, default to Franklin.</h2>
+        <p>Franklin is the best all-around hike. Snoqualmie is the icon. Paradise is easiest.</p>
       </div>
-      <div class="plan-grid">
-        <div><span>Departure</span><strong>About 8:15 a.m.</strong><p>Budget roughly 90 minutes to Franklin because of Friday’s I-90 work.</p></div>
-        <div><span>Weather</span><strong>Sunny, low 60s → 70°F</strong><p>Current Franklin forecast for the intended morning window; recheck Thursday.</p></div>
-        <div><span>Pack</span><strong>Carrier + toddler bailout</strong><p>Water, snacks, sun hats, diaper kit, light spray layer, and first-aid kit.</p></div>
-        <div><span>Afternoon</span><strong>Lunch → Chateau at 3:00</strong><p>Franklin requires the tightest timing; Snoqualmie and Paradise Valley leave more slack.</p></div>
+
+      <div class="hike-grid">
+        <a class="trail-card" href="https://www.alltrails.com/trail/us/washington/franklin-falls-trail" target="_blank" rel="noopener noreferrer" aria-label="Open Franklin Falls Trail on AllTrails">
+          <div class="trail-photo">
+            <img src="assets/images/franklin-falls.webp" alt="Franklin Falls pouring into a mountain pool" width="1080" height="700">
+            <span class="badge recommended">Best overall</span>
+          </div>
+          <div class="trail-content">
+            <p class="location">Snoqualmie Pass</p>
+            <h3>Franklin Falls</h3>
+            <p class="summary">A shaded river walk with a memorable waterfall finish.</p>
+            <div class="trail-stats"><span><strong>2.0 mi</strong>round trip</span><span><strong>400 ft</strong>gain</span><span><strong>~2 hr</strong>with kids</span></div>
+            <p class="fit"><strong>Family fit</strong> Toddler can walk sections; bring a carry backup.</p>
+            <p class="watch"><strong>Know before</strong> Stop at the main viewpoint—the final rocks are wet and narrow.</p>
+            <div class="trail-footer"><span>73 min to Chateau</span><strong>View trail ↗</strong></div>
+          </div>
+        </a>
+
+        <a class="trail-card" href="https://www.alltrails.com/trail/us/washington/snoqualmie-falls-trail" target="_blank" rel="noopener noreferrer" aria-label="Open Snoqualmie Falls Trail on AllTrails">
+          <div class="trail-photo">
+            <img src="assets/images/snoqualmie-falls.webp" alt="Snoqualmie Falls dropping into a forested river valley" width="1080" height="700">
+            <span class="badge iconic">Most iconic</span>
+          </div>
+          <div class="trail-content">
+            <p class="location">Snoqualmie</p>
+            <h3>Snoqualmie Falls</h3>
+            <p class="summary">Washington’s famous 268-foot waterfall with an instant upper overlook.</p>
+            <div class="trail-stats"><span><strong>1.4 mi</strong>out &amp; back</span><span><strong>328 ft</strong>gain</span><span><strong>0.5–1 hr</strong>listed</span></div>
+            <p class="fit"><strong>Family fit</strong> Easy overlook; carry backup for the steep return.</p>
+            <p class="watch"><strong>Know before</strong> Stay on the trail, boardwalk, and fenced overlooks.</p>
+            <div class="trail-footer"><span>43 min to Chateau</span><strong>View trail ↗</strong></div>
+          </div>
+        </a>
+
+        <a class="trail-card" href="https://www.alltrails.com/trail/us/washington/ephemeral-and-big-leaf-loop" target="_blank" rel="noopener noreferrer" aria-label="Open Ephemeral and Big Leaf Loop on AllTrails">
+          <div class="trail-photo">
+            <img src="assets/images/paradise-valley.webp" alt="Mossy forest trail in Paradise Valley" width="1080" height="700">
+            <span class="badge easy">Easiest</span>
+          </div>
+          <div class="trail-content">
+            <p class="location">Paradise Valley · Woodinville</p>
+            <h3>Ephemeral &amp; Big Leaf Loop</h3>
+            <p class="summary">A gentle forest loop with minimal climbing and an easy bailout.</p>
+            <div class="trail-stats"><span><strong>2.0 mi</strong>loop</span><span><strong>82 ft</strong>gain</span><span><strong>0.5–1 hr</strong>listed</span></div>
+            <p class="fit"><strong>Family fit</strong> Best chance the three-year-old walks the whole route.</p>
+            <p class="watch"><strong>Know before</strong> No dramatic endpoint, but shaded, calm, and close.</p>
+            <div class="trail-footer"><span>18 min to Chateau</span><strong>View trail ↗</strong></div>
+          </div>
+        </a>
       </div>
+
+      <aside class="quick-plan" aria-label="Recommended Friday plan">
+        <div><p class="kicker">Recommended</p><h3>Default to Franklin Falls.</h3></div>
+        <dl>
+          <div><dt>Leave</dt><dd>8:15 a.m.</dd></div>
+          <div><dt>Weather</dt><dd>Sunny · 60s→70°F</dd></div>
+          <div><dt>Bring</dt><dd>Carrier + first aid</dd></div>
+          <div><dt>Next</dt><dd>Lunch → Chateau 3:00</dd></div>
+        </dl>
+        <p>Allow about 90 minutes to Franklin because of Friday’s I-90 work. Recheck Thursday.</p>
+      </aside>
     </section>
 
-    <section class="other-activities" aria-labelledby="other-activities">
+    <section class="section shell" id="itinerary" aria-labelledby="itinerary-title">
       <div class="section-heading">
-        <p class="eyebrow">Beyond the trail</p>
-        <h2 id="other-activities">Farm, Chateau &amp; departure</h2>
-        <p>Friday carries the hike and Chateau. Saturday is reserved for the CSA pickup, packing, and the airport—with no fixed attraction competing with the flight.</p>
+        <p class="kicker">Then: the itinerary</p>
+        <h2 id="itinerary-title">Friday afternoon &amp; Saturday</h2>
       </div>
 
-      <div class="activity-grid">
-        <article class="activity-card farm-card">
-          <div class="activity-topline">
-            <span class="activity-symbol" aria-hidden="true">✦</span>
-            <span class="status-pill">Saturday preferred · TBD</span>
-          </div>
-          <p class="location">CSA stop</p>
-          <h3>Farm pickup</h3>
-          <p>Visit the farm and collect the week’s CSA share. The exact farm and published pickup window are not yet confirmed.</p>
-          <div class="activity-notes">
-            <div><span>Best placeholder</span><strong>Saturday morning</strong><small>Use the farm only if its pickup window allows a return to Kirkland by about 11:15 a.m.</small></div>
-            <div><span>Decision needed</span><strong>Farm + pickup hours</strong><small>Once confirmed, this can become a precise route and time.</small></div>
-          </div>
-        </article>
-
-        <article class="activity-card chateau-card">
-          <div class="activity-topline">
-            <span class="activity-symbol" aria-hidden="true">♜</span>
-            <span class="status-pill recommended-pill">Recommended · Fri 3:00</span>
-          </div>
-          <p class="location">Woodinville · Friday afternoon</p>
+      <div class="itinerary-grid">
+        <article class="itinerary-card chateau">
+          <div class="time-label">Friday · 3:00–4:15 p.m.</div>
           <h3>Chateau Ste. Michelle</h3>
-          <p><strong>Target the all-ages Feature Flight Tasting</strong>, not the six-person patio option. It lasts 75 minutes, accommodates up to 12, and keeps the seven-person group together.</p>
-          <div class="activity-notes">
-            <div><span>Timing</span><strong>3:00–4:15 p.m. Friday</strong><small>About 80°F and sunny; no concert is scheduled July 17 or 18.</small></div>
-            <div><span>Cost</span><strong>$30 per tasting adult</strong><small>$120 base for four adults, before tax; reservations recommended.</small></div>
-            <div><span>Booking note</span><strong>Confirm the 3:00 slot</strong><small>The winery asks parties with under-21 or nonparticipating guests to coordinate with reservations.</small></div>
-            <div><span>Friday flow</span><strong>Hike → lunch → Chateau</strong><small>About 73 minutes from Franklin, 43 from Snoqualmie, or 18 from Paradise Valley.</small></div>
-          </div>
-          <div class="activity-links">
+          <p>Target the all-ages Feature Flight. It fits the full group and keeps Friday’s route simple.</p>
+          <div class="detail-pills"><span>75 minutes</span><span>$30 / adult</span><span>$120 base</span><span>Up to 12 guests</span></div>
+          <p class="small-note">Coordinate the reservation for children and non-tasters. Travel from the hikes: Franklin 73 min · Snoqualmie 43 min · Paradise 18 min.</p>
+          <div class="text-links">
             <a href="https://www.ste-michelle.com/visit-us/experiences/wine-tasting" target="_blank" rel="noopener noreferrer">Tasting details ↗</a>
             <a href="https://www.ste-michelle.com/property-guidelines" target="_blank" rel="noopener noreferrer">Property rules ↗</a>
-            <a href="https://www.google.com/maps/search/?api=1&amp;query=Chateau+Ste.+Michelle%2C+Woodinville%2C+WA" target="_blank" rel="noopener noreferrer">Open in Maps ↗</a>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Chateau+Ste.+Michelle%2C+Woodinville%2C+WA" target="_blank" rel="noopener noreferrer">Map ↗</a>
           </div>
         </article>
 
-        <article class="activity-card flight-card">
-          <div class="activity-topline">
-            <span class="activity-symbol" aria-hidden="true">↗</span>
-            <span class="status-pill flight-pill">Saturday departure</span>
-          </div>
-          <p class="location">SEA → DFW · Flight 757</p>
-          <h3>3:21 p.m. takeoff</h3>
-          <p>Four travelers depart Seattle and arrive Dallas/Fort Worth at 9:24 p.m. local time.</p>
-          <div class="flight-line" aria-label="Departure timing">
-            <div><span>Leave Kirkland</span><strong>12:15</strong></div>
-            <div aria-hidden="true">→</div>
-            <div><span>SEA target</span><strong>~1:00</strong></div>
-            <div aria-hidden="true">→</div>
-            <div><span>Flight</span><strong>3:21</strong></div>
-          </div>
-          <p class="privacy-note">Load bags before noon and check the live gate and SEA conditions before leaving. Saturday has no Chateau commitment; if the farm timing is uncertain, skip the pickup rather than compress the flight buffer.</p>
-        </article>
+        <div class="saturday-stack">
+          <article class="itinerary-card farm">
+            <div class="time-label">Saturday morning · Flexible</div>
+            <h3>CSA farm pickup</h3>
+            <p>Farm and pickup hours are still TBD. Return to Kirkland by about 11:15 a.m.</p>
+          </article>
+
+          <article class="itinerary-card flight">
+            <div class="time-label">Saturday departure</div>
+            <h3>SEA → DFW · Flight 757</h3>
+            <div class="flight-flow" aria-label="Airport timing">
+              <div><span>Leave</span><strong>12:15</strong></div><b aria-hidden="true">→</b>
+              <div><span>SEA</span><strong>~1:00</strong></div><b aria-hidden="true">→</b>
+              <div><span>Flight</span><strong>3:21</strong></div>
+            </div>
+            <p>Arrives DFW at 9:24 p.m. local. If farm timing slips, skip the pickup.</p>
+          </article>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div>
-      <p>Built for a simple family decision. Trail conditions, weather, and road work can change—check again Thursday evening.</p>
-      <p class="credits">Trail photos via AllTrails: <a href="https://www.alltrails.com/trail/us/washington/franklin-falls-trail" target="_blank" rel="noopener noreferrer">Franklin Falls Trail</a>, <a href="https://www.alltrails.com/trail/us/washington/snoqualmie-falls-trail" target="_blank" rel="noopener noreferrer">Snoqualmie Falls Trail</a>, and <a href="https://www.alltrails.com/trail/us/washington/ephemeral-and-big-leaf-loop" target="_blank" rel="noopener noreferrer">Ephemeral and Big Leaf Loop</a>.</p>
+    <div class="shell footer-inner">
+      <p>Trail conditions, weather, and road work can change—recheck Thursday.</p>
+      <p class="credits">Trail photos via AllTrails: <a href="https://www.alltrails.com/trail/us/washington/franklin-falls-trail" target="_blank" rel="noopener noreferrer">Franklin Falls</a>, <a href="https://www.alltrails.com/trail/us/washington/snoqualmie-falls-trail" target="_blank" rel="noopener noreferrer">Snoqualmie Falls</a>, and <a href="https://www.alltrails.com/trail/us/washington/ephemeral-and-big-leaf-loop" target="_blank" rel="noopener noreferrer">Paradise Valley</a>.</p>
+      <p>Updated July 11, 2026</p>
     </div>
-    <p>Updated July 11, 2026.</p>
   </footer>
 </body>
 </html>
