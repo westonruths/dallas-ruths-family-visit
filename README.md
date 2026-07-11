@@ -1,9 +1,9 @@
 # Dallas Ruths Family Visit
 
-A public, mobile-friendly Thursday–Saturday visit plan covering meals, two kid-ready Friday hike options, a flexible CSA farm pickup, a Saturday Chateau Ste. Michelle visit, and departure logistics.
+A public, mobile-friendly Thursday–Saturday visit plan covering meals, three family-ready Friday hike options, a flexible CSA farm pickup, a Friday Chateau Ste. Michelle visit, and Saturday departure logistics.
 
 - Meal plan: Thursday dinner through Saturday breakfast
-- Friday hike: Franklin Falls or Ephemeral and Big Leaf Loop
+- Friday hike: Franklin Falls, Snoqualmie Falls, or Ephemeral and Big Leaf Loop
 - CSA farm pickup: Saturday morning preferred, exact window TBD
 - Chateau Ste. Michelle: target Friday at 3:00 p.m.; Saturday remains open for CSA, packing, and SEA
 
