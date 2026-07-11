@@ -1,9 +1,11 @@
 # Dallas Ruths Family Visit
 
-A public, mobile-friendly visit plan covering two kid-ready hike options and the Thursday–Saturday meal schedule for the Dallas Ruths family visit on Friday, July 17, 2026.
+A public, mobile-friendly Thursday–Saturday visit plan covering meals, two kid-ready Friday hike options, a flexible CSA farm pickup, a Saturday Chateau Ste. Michelle visit, and departure logistics.
 
-- Franklin Falls Trail
-- Ephemeral and Big Leaf Loop at Paradise Valley Conservation Area
+- Meal plan: Thursday dinner through Saturday breakfast
+- Friday hike: Franklin Falls or Ephemeral and Big Leaf Loop
+- CSA farm pickup: Friday or Saturday, exact window TBD
+- Chateau Ste. Michelle: target Saturday 11:00 a.m., then depart directly for SEA
 
 Each option card links directly to its exact AllTrails route.
 
