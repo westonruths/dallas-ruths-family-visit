@@ -103,9 +103,12 @@ main { max-width: 1240px; margin: 0 auto; padding: 0 clamp(18px, 4vw, 46px) 80px
 }
 .hike-card:hover, .hike-card:focus-visible { transform: translateY(-6px); box-shadow: var(--shadow); border-color: rgba(49,95,80,.45); outline: none; }
 .card-art { height: 245px; position: relative; overflow: hidden; background: #b8cfc4; }
-.card-art svg { width: 100%; height: 100%; display: block; transition: transform .45s ease; }
-.hike-card:hover .card-art svg { transform: scale(1.035); }
+.card-art img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .45s ease, filter .45s ease; }
+.franklin .card-art img { object-position: center 54%; }
+.paradise .card-art img { object-position: center 52%; }
+.hike-card:hover .card-art img { transform: scale(1.035); filter: saturate(1.08); }
 .badge { position: absolute; left: 18px; top: 18px; padding: 8px 11px; border-radius: 999px; background: rgba(255,253,247,.92); color: var(--ink); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; backdrop-filter: blur(8px); }
+.photo-label { position: absolute; right: 14px; bottom: 12px; padding: 6px 9px; border-radius: 999px; color: #fff; background: rgba(10,35,29,.72); font-size: .66rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; backdrop-filter: blur(8px); }
 .card-body { padding: 27px; }
 .card-title-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
 .location { margin: 0 0 4px; color: #6d807a; font-size: .74rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
@@ -136,6 +139,9 @@ li::marker { color: var(--gold); }
 
 footer { display: flex; justify-content: space-between; gap: 30px; padding: 30px clamp(22px, 5vw, 72px); color: rgba(255,255,255,.65); background: #102f29; font-size: .78rem; }
 footer p { margin: 0; }
+footer > div { max-width: 920px; }
+footer .credits { margin-top: 8px; color: rgba(255,255,255,.5); }
+footer a { color: #f0d28d; text-underline-offset: 2px; }
 
 @media (max-width: 780px) {
   .hero { min-height: 500px; }

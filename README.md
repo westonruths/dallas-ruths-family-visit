@@ -1,6 +1,6 @@
-# Friday Family Hike
+# Dallas Ruths Family Visit
 
-A public, mobile-friendly comparison of two kid-ready hike options for Friday, July 17, 2026.
+A public, mobile-friendly comparison of two kid-ready hike options for the Dallas Ruths family visit on Friday, July 17, 2026.
 
 - Franklin Falls Trail
 - Ephemeral and Big Leaf Loop at Paradise Valley Conservation Area
