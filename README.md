@@ -7,7 +7,7 @@ A public, mobile-friendly Thursday–Saturday visit plan covering meals, two kid
 - CSA farm pickup: Saturday morning preferred, exact window TBD
 - Chateau Ste. Michelle: target Friday at 3:00 p.m.; Saturday remains open for CSA, packing, and SEA
 
-Each option card links directly to its exact AllTrails route.
+Each option card links directly to its exact AllTrails route. The displayed hike images are sourced from those same AllTrails trail pages and credited on the site.
 
 ## Local preview
 
