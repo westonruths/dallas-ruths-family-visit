@@ -104,13 +104,15 @@ h1 { max-width: 620px; margin: 0; font-size: clamp(3.2rem, 6.4vw, 5.8rem); line-
 .quick-plan dd { margin: 3px 0 0; font-size: .82rem; font-weight: 700; }
 .quick-plan > p { grid-column: 1 / -1; margin: -8px 0 0; color: var(--muted); font-size: .78rem; }
 
+.itinerary-block { margin-top: 72px; padding-top: 62px; border-top: 1px solid var(--line); }
+.itinerary-heading h3 { margin: 0; font-size: clamp(1.8rem, 3.2vw, 2.65rem); line-height: 1.05; letter-spacing: -.04em; }
 .itinerary-grid { display: grid; grid-template-columns: 1.35fr .95fr; gap: 18px; }
 .saturday-stack { display: grid; gap: 18px; }
 .itinerary-card { padding: 28px; border: 1px solid var(--line); border-radius: 20px; background: var(--white); }
 .itinerary-card.chateau { min-height: 390px; padding: clamp(30px, 5vw, 52px); color: #fff; background: linear-gradient(140deg, #253a34, #315f50); border: 0; }
 .time-label { margin-bottom: 14px; color: var(--accent); font-size: .72rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
 .chateau .time-label { color: #ffb6aa; }
-.itinerary-card h3 { margin: 0; font-size: clamp(1.55rem, 3vw, 2.35rem); line-height: 1.08; letter-spacing: -.04em; }
+.itinerary-card h4 { margin: 0; font-size: clamp(1.55rem, 3vw, 2.35rem); line-height: 1.08; letter-spacing: -.04em; }
 .itinerary-card > p { margin: 14px 0 0; color: var(--muted); }
 .chateau > p { max-width: 600px; color: rgba(255,255,255,.78); }
 .detail-pills { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
