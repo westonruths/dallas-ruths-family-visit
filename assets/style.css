@@ -135,7 +135,7 @@ li::marker { color: var(--gold); }
 .plan { margin-top: 64px; padding: clamp(26px, 5vw, 56px); background: #e7eadc; border: 1px solid var(--line); }
 .plan > div:first-child { max-width: 720px; }
 .plan h2 { margin: 0 0 30px; font-size: clamp(2rem, 4vw, 3.2rem); }
-.plan-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.plan-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .plan-grid div { padding: 20px; background: rgba(255,255,255,.55); border-top: 3px solid var(--gold); }
 .plan-grid span, .plan-grid strong { display: block; }
 .plan-grid span { margin-bottom: 5px; color: #71837d; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }

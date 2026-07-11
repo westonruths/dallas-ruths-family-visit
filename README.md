@@ -4,8 +4,8 @@ A public, mobile-friendly Thursday–Saturday visit plan covering meals, two kid
 
 - Meal plan: Thursday dinner through Saturday breakfast
 - Friday hike: Franklin Falls or Ephemeral and Big Leaf Loop
-- CSA farm pickup: Friday or Saturday, exact window TBD
-- Chateau Ste. Michelle: target Saturday 11:00 a.m., then depart directly for SEA
+- CSA farm pickup: Saturday morning preferred, exact window TBD
+- Chateau Ste. Michelle: target Friday at 3:00 p.m.; Saturday remains open for CSA, packing, and SEA
 
 Each option card links directly to its exact AllTrails route.
 
