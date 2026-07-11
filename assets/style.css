@@ -83,6 +83,10 @@ h1 { max-width: 620px; margin: 0; font-size: clamp(3.2rem, 6.4vw, 5.8rem); line-
 .location { margin: 0 0 5px; color: var(--muted); font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .trail-content h3 { margin: 0; font-size: clamp(1.35rem, 2.4vw, 1.75rem); line-height: 1.08; letter-spacing: -.035em; }
 .summary { min-height: 62px; margin: 12px 0 18px; color: var(--muted); font-size: .9rem; }
+.drive-time { min-height: 54px; margin-bottom: 14px; padding: 10px 12px; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 12px; border-radius: 10px; background: var(--surface); font-size: .76rem; }
+.drive-time span { color: var(--muted); }
+.drive-time strong { font-size: .8rem; }
+.drive-time small { grid-column: 1 / -1; color: var(--accent-dark); font-size: .68rem; font-weight: 700; }
 .trail-stats { display: grid; grid-template-columns: repeat(3, 1fr); padding-block: 14px; border-block: 1px solid var(--line); }
 .trail-stats span { color: var(--muted); font-size: .69rem; }
 .trail-stats strong { display: block; color: var(--ink); font-size: .92rem; }
