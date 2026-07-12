@@ -3,204 +3,103 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Dallas Ruths Family Visit — meals, hikes, and a simple July 16–18 itinerary.">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Dallas Ruths Family Visit — a simple July 16–18 agenda.">
+  <meta name="theme-color" content="#f7f6f2">
   <title>Dallas Ruths Family Visit</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <header class="site-header">
-    <nav aria-label="Page navigation">
+    <div class="shell header-inner">
       <a class="brand" href="#top">Dallas Ruths Family Visit</a>
-      <div class="nav-links">
-        <a href="#meals">Meals</a>
-        <a href="#plan">Visit plan</a>
-      </div>
-      <span class="nav-date">July 16–18</span>
-    </nav>
+      <span>July 16–18, 2026</span>
+    </div>
   </header>
 
-  <main id="top">
-    <section class="hero shell" aria-labelledby="page-title">
-      <div class="hero-copy">
-        <p class="kicker">July 16–18, 2026 · Washington</p>
-        <h1 id="page-title">Dallas Ruths Family Visit</h1>
-        <p class="hero-lede">Three easy days of shared meals, forest trails, lavender fields, and a relaxed send-off.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#meals">See the plan</a>
-          <a class="button secondary" href="#plan">See hike options</a>
-        </div>
-        <dl class="trip-facts">
-          <div><dt>Friday</dt><dd>Hike + CSA</dd></div>
-          <div><dt>Saturday</dt><dd>Lavender + SEA</dd></div>
-          <div><dt>Flight</dt><dd>3:21 p.m.</dd></div>
-        </dl>
-      </div>
-
-      <div class="hero-gallery" aria-label="Featured trip views">
-        <figure class="hero-main-photo">
-          <img src="assets/images/may-valley.webp" alt="May Valley forest bridge surrounded by foxglove" width="1080" height="700">
-          <figcaption>May Valley · Friday option</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/squak-fireplace.webp" alt="Historic Bullitt Fireplace in Squak Mountain forest" width="1080" height="700">
-          <figcaption>Squak Mountain</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/paradise-valley.webp" alt="Mossy forest trail in Paradise Valley" width="1080" height="700">
-          <figcaption>Paradise Valley</figcaption>
-        </figure>
-      </div>
+  <main id="top" class="shell">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Washington</p>
+      <h1 id="page-title">The agenda</h1>
+      <p>Food, trails, lavender, and a flight home.</p>
     </section>
 
-    <section class="section shell" id="meals" aria-labelledby="meals-title">
-      <div class="section-heading">
-        <p class="kicker">First: food</p>
-        <h2 id="meals-title">Meals by day</h2>
-      </div>
+    <section class="agenda" aria-label="Visit agenda">
+      <article class="agenda-day">
+        <header class="day-label">
+          <p>Thu</p>
+          <h2>16</h2>
+        </header>
+        <ol class="agenda-list">
+          <li>
+            <time>Dinner</time>
+            <div><strong>Chicken quesadillas</strong></div>
+          </li>
+        </ol>
+      </article>
 
-      <div class="meal-grid">
-        <article class="meal-card">
-          <div class="day-heading"><span>Thu</span><h3>Thursday</h3></div>
-          <div class="meal-item"><span>Dinner</span><strong>Chicken quesadillas</strong></div>
-        </article>
+      <article class="agenda-day">
+        <header class="day-label">
+          <p>Fri</p>
+          <h2>17</h2>
+        </header>
+        <ol class="agenda-list">
+          <li>
+            <time>Breakfast</time>
+            <div><strong>Pancakes, eggs &amp; sausage</strong></div>
+          </li>
+          <li>
+            <time>Morning</time>
+            <div class="hike-choice">
+              <strong>Hike · choose one</strong>
+              <ul aria-label="Friday hike options">
+                <li><a href="https://www.alltrails.com/trail/us/washington/may-valley-short-loop" target="_blank" rel="noopener noreferrer">May Valley</a><span>4.5 · 4.6 mi / 912 ft · ~40 min · pass + carrier</span></li>
+                <li><a href="https://www.alltrails.com/trail/us/washington/squak-mountain-fireplace-trail" target="_blank" rel="noopener noreferrer">Squak Fireplace</a><span>4.5 · 4.4 mi / 1,361 ft · ~32 min · carrier</span></li>
+                <li><a href="https://www.alltrails.com/trail/us/washington/ephemeral-and-big-leaf-loop" target="_blank" rel="noopener noreferrer">Paradise Valley</a><span>4.5 · 2.0 mi / 82 ft · ~19 min · favorite repeat</span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <time>Lunch</time>
+            <div><strong>Restaurant</strong><span>TBD · after the hike</span></div>
+          </li>
+          <li>
+            <time>12–6 p.m.</time>
+            <div><strong>Ecolibrium Farms CSA</strong><span>Pickup · exact time TBD</span></div>
+          </li>
+          <li>
+            <time>Dinner</time>
+            <div><strong>Steak &amp; chow mein</strong></div>
+          </li>
+        </ol>
+      </article>
 
-        <article class="meal-card featured">
-          <div class="day-heading"><span>Fri</span><h3>Friday</h3></div>
-          <div class="meal-item"><span>Breakfast</span><strong>Pancakes, eggs &amp; sausage</strong></div>
-          <div class="meal-item"><span>Lunch</span><strong>Restaurant after the hike</strong><small>Restaurant TBD</small></div>
-          <div class="meal-item"><span>Dinner</span><strong>Steak &amp; chow mein</strong></div>
-        </article>
-
-        <article class="meal-card">
-          <div class="day-heading"><span>Sat</span><h3>Saturday</h3></div>
-          <div class="meal-item"><span>Breakfast</span><strong>Hash browns, eggs &amp; sausage</strong></div>
-        </article>
-      </div>
+      <article class="agenda-day saturday">
+        <header class="day-label">
+          <p>Sat</p>
+          <h2>18</h2>
+        </header>
+        <ol class="agenda-list">
+          <li>
+            <time>Breakfast</time>
+            <div><strong>Hash browns, eggs &amp; sausage</strong></div>
+          </li>
+          <li>
+            <time>9–10:30 a.m.</time>
+            <div><strong><a href="https://www.jbfamilygrowers.com/the-lavender-farm" target="_blank" rel="noopener noreferrer">Lavender Festival ↗</a></strong><span>JB Family Growers · $9 · ages 12+</span></div>
+          </li>
+          <li class="departure">
+            <time>12:15 p.m.</time>
+            <div><strong>Leave for SEA</strong><span>~1:00 airport · 3:21 p.m. Flight 757 · DFW 9:24 p.m. local</span></div>
+          </li>
+        </ol>
+      </article>
     </section>
 
-    <section class="section shell" id="plan" aria-labelledby="plan-title">
-      <div class="section-heading split-heading">
-        <div>
-          <p class="kicker">Options for the visit</p>
-          <h2 id="plan-title">A few ways to spend Friday &amp; Saturday</h2>
-        </div>
-        <p>Three 4.5+ AllTrails picks under 40 minutes from home. Higher ratings here mean steeper hiking.</p>
-      </div>
-
-      <div class="hike-grid">
-        <a class="trail-card" href="https://www.alltrails.com/trail/us/washington/may-valley-short-loop" target="_blank" rel="noopener noreferrer" aria-label="Open May Valley Short Loop on AllTrails">
-          <div class="trail-photo">
-            <img src="assets/images/may-valley.webp" alt="May Valley forest bridge surrounded by foxglove" width="1080" height="700">
-            <span class="badge recommended">4.5 / 5 rated</span>
-          </div>
-          <div class="trail-content">
-            <p class="location">Squak Mountain · Issaquah</p>
-            <h3>May Valley Short Loop</h3>
-            <p class="summary">A challenging forest loop with the biggest effort-to-drive payoff.</p>
-            <div class="drive-time"><span>Drive from home</span><strong>~40 min</strong></div>
-            <div class="rating-line"><span>AllTrails rating</span><strong>4.5 / 5</strong></div>
-            <div class="trail-stats"><span><strong>4.6 mi</strong>loop</span><span><strong>912 ft</strong>gain</span><span><strong>2–2.5 hr</strong>listed</span></div>
-            <p class="fit"><strong>Family fit</strong> A true carrier hike—plan on the Osprey for most or all of the climb.</p>
-            <p class="watch"><strong>Know before</strong> Discover Pass required; route can be overgrown, so download the map and wear long pants.</p>
-            <div class="trail-footer"><span>Friday morning option</span><strong>View trail ↗</strong></div>
-          </div>
-        </a>
-
-        <a class="trail-card" href="https://www.alltrails.com/trail/us/washington/squak-mountain-fireplace-trail" target="_blank" rel="noopener noreferrer" aria-label="Open Squak Mountain Fireplace Trail on AllTrails">
-          <div class="trail-photo">
-            <img src="assets/images/squak-fireplace.webp" alt="Historic Bullitt Fireplace in Squak Mountain forest" width="1080" height="700">
-            <span class="badge">4.5 / 5 rated</span>
-          </div>
-          <div class="trail-content">
-            <p class="location">Squak Mountain · Issaquah</p>
-            <h3>Squak Mountain Fireplace</h3>
-            <p class="summary">A substantial forest climb to a historic stone fireplace and picnic tables.</p>
-            <div class="drive-time"><span>Drive from home</span><strong>~32 min</strong></div>
-            <div class="rating-line"><span>AllTrails rating</span><strong>4.5 / 5</strong></div>
-            <div class="trail-stats"><span><strong>4.4 mi</strong>out &amp; back</span><span><strong>1,361 ft</strong>gain</span><span><strong>2.5–3 hr</strong>listed</span></div>
-            <p class="fit"><strong>Family fit</strong> This is the hardest option; use the Osprey from the start and set a firm turnaround.</p>
-            <p class="watch"><strong>Know before</strong> Small free lot; the destination is the fireplace, not an open summit view.</p>
-            <div class="trail-footer"><span>Friday morning option</span><strong>View trail ↗</strong></div>
-          </div>
-        </a>
-
-        <a class="trail-card" href="https://www.alltrails.com/trail/us/washington/ephemeral-and-big-leaf-loop" target="_blank" rel="noopener noreferrer" aria-label="Open Ephemeral and Big Leaf Loop on AllTrails">
-          <div class="trail-photo">
-            <img src="assets/images/paradise-valley.webp" alt="Mossy forest trail in Paradise Valley" width="1080" height="700">
-            <span class="badge">4.5 / 5 repeat</span>
-          </div>
-          <div class="trail-content">
-            <p class="location">Paradise Valley · Woodinville</p>
-            <h3>Ephemeral &amp; Big Leaf Loop</h3>
-            <p class="summary">A known 5/5 shaded forest loop with minimal climbing and an easy bailout.</p>
-            <div class="drive-time"><span>Drive from home</span><strong>~19 min</strong></div>
-            <div class="rating-line"><span>AllTrails rating</span><strong>4.5 / 5</strong></div>
-            <div class="trail-stats"><span><strong>2.0 mi</strong>loop</span><span><strong>82 ft</strong>gain</span><span><strong>0.5–1 hr</strong>listed</span></div>
-            <p class="fit"><strong>Family fit</strong> Best chance the three-year-old walks the whole route.</p>
-            <p class="watch"><strong>Know before</strong> No dramatic endpoint, but shaded, calm, and close.</p>
-            <div class="trail-footer"><span>Friday morning option</span><strong>View trail ↗</strong></div>
-          </div>
-        </a>
-      </div>
-
-      <aside class="quick-plan" aria-label="Friday pacing">
-        <div><p class="kicker">Friday pacing</p><h3>Keep the afternoon open</h3></div>
-        <dl>
-          <div><dt>Drive</dt><dd>19–40 min</dd></div>
-          <div><dt>Hike</dt><dd>0.5–3 hr</dd></div>
-          <div><dt>Lunch</dt><dd>After hike</dd></div>
-          <div><dt>CSA</dt><dd>12–6 p.m.</dd></div>
-        </dl>
-        <p>All three score 4.5+ on AllTrails. May Valley and Squak exit I‑90 before the SR 18 work zone; both need a carrier plan. Recheck traffic Thursday.</p>
-      </aside>
-
-      <div class="itinerary-block" aria-labelledby="itinerary-title">
-        <div class="section-heading itinerary-heading">
-          <p class="kicker">After the hike</p>
-          <h3 id="itinerary-title">Friday afternoon &amp; Saturday morning</h3>
-        </div>
-
-        <div class="itinerary-grid">
-          <article class="itinerary-card csa-feature">
-            <div class="time-label">Friday afternoon · 12:00–6:00 p.m.</div>
-            <h4>Ecolibrium Farms CSA pickup</h4>
-            <p>Pickup window: Friday 12:00–6:00 p.m. The afternoon leaves room after the hike and lunch.</p>
-            <div class="detail-pills"><span>Flexible pickup window</span><span>After lunch</span></div>
-            <p class="small-note">Exact pickup time is still TBD.</p>
-          </article>
-
-          <div class="saturday-stack">
-            <article class="itinerary-card lavender">
-              <div class="time-label">Saturday · 9:00–10:30 a.m.</div>
-              <h4>Lavender Festival</h4>
-              <p>JB Family Growers · Festival weekend one. Arrive at opening, enjoy the fields, then head home to pack.</p>
-              <div class="lavender-meta"><span>9 a.m.–9 p.m.</span><span>$9 · ages 12+</span><span>~5 min from home</span></div>
-              <a class="lavender-link" href="https://www.jbfamilygrowers.com/the-lavender-farm" target="_blank" rel="noopener noreferrer">Festival details ↗</a>
-            </article>
-
-            <article class="itinerary-card flight">
-              <div class="time-label">Saturday departure</div>
-              <h4>SEA → DFW · Flight 757</h4>
-              <div class="flight-flow" aria-label="Airport timing">
-                <div><span>Leave</span><strong>12:15</strong></div><b aria-hidden="true">→</b>
-                <div><span>SEA</span><strong>~1:00</strong></div><b aria-hidden="true">→</b>
-                <div><span>Flight</span><strong>3:21</strong></div>
-              </div>
-              <p>Arrives DFW at 9:24 p.m. local. If the festival runs long, head home rather than compress the airport buffer.</p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
+    <p class="note">May Valley and Squak exit I‑90 before the SR 18 work zone. Recheck traffic Thursday.</p>
   </main>
 
   <footer>
-    <div class="shell footer-inner">
-      <p>Trail conditions, weather, and road work can change—recheck Thursday.</p>
-      <p class="credits">Trail photos via AllTrails: <a href="https://www.alltrails.com/trail/us/washington/may-valley-short-loop" target="_blank" rel="noopener noreferrer">May Valley</a>, <a href="https://www.alltrails.com/trail/us/washington/squak-mountain-fireplace-trail" target="_blank" rel="noopener noreferrer">Squak Mountain</a>, and <a href="https://www.alltrails.com/trail/us/washington/ephemeral-and-big-leaf-loop" target="_blank" rel="noopener noreferrer">Paradise Valley</a>.</p>
-      <p>Updated July 11, 2026</p>
-    </div>
+    <div class="shell">Conditions can change. Recheck trails, traffic, and festival details Thursday.</div>
   </footer>
 </body>
 </html>
