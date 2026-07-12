@@ -1,10 +1,13 @@
 # Dallas Ruths Family Visit
 
-A minimal public agenda for the Thursday–Saturday visit: meals and activities appear in chronological order, with compact exact AllTrails links for Friday's three 4.5+ hike options.
+A minimal public agenda for the Thursday–Saturday visit: meals and activities appear in chronological order, with compact exact AllTrails links for Friday's three-year-old-friendly hike options.
 
 - Thursday: chicken quesadillas
 - Friday: breakfast → hike → restaurant lunch → Ecolibrium Farms CSA pickup → steak & chow mein
+  - Hikes: Evans Creek Preserve, O. O. Denny County Park Loop, or the Paradise Valley favorite repeat
 - Saturday: breakfast → JB Family Growers Lavender Festival → SEA departure
+
+The Friday route thumbnails are watermarked AllTrails photos sourced from the same exact route pages and credited in the public footer.
 
 ## Local preview
 

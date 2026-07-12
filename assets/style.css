@@ -37,8 +37,9 @@ h1 { margin: 0; font-size: clamp(3.1rem, 9vw, 5.8rem); line-height: .94; letter-
 .agenda-list strong { display: block; font-size: 1rem; line-height: 1.25; }
 .agenda-list span { display: block; margin-top: 4px; color: var(--muted); font-size: .83rem; }
 .hike-choice ul { margin: 12px 0 0; padding: 0; list-style: none; }
-.hike-choice li { padding: 9px 0; display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 12px; border-top: 1px solid var(--line); }
+.hike-choice li { padding: 9px 0; display: grid; grid-template-columns: 56px minmax(0, 1fr); align-items: center; gap: 12px; border-top: 1px solid var(--line); }
 .hike-choice li:last-child { border-bottom: 1px solid var(--line); }
+.trail-thumb { width: 56px; height: 56px; display: block; object-fit: cover; border-radius: 7px; }
 .hike-choice a { font-weight: 700; }
 .hike-choice span { margin: 0; font-size: .78rem; }
 .departure { background: #eeece5; }
@@ -46,6 +47,9 @@ h1 { margin: 0; font-size: clamp(3.1rem, 9vw, 5.8rem); line-height: .94; letter-
 .note { margin: 20px 0 76px 118px; color: var(--muted); font-size: .76rem; }
 
 footer { padding: 25px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: .74rem; }
+.footer-inner { display: grid; gap: 7px; }
+.footer-inner p { margin: 0; }
+.credits a { color: var(--ink); }
 
 @media (max-width: 600px) {
   .shell { width: min(100% - 28px, 800px); }
@@ -60,7 +64,8 @@ footer { padding: 25px 0; border-top: 1px solid var(--line); color: var(--muted)
   .agenda-list time { padding-left: 0; font-size: .69rem; }
   .agenda-list strong { font-size: .94rem; }
   .agenda-list span { font-size: .78rem; }
-  .hike-choice li { grid-template-columns: 1fr; gap: 2px; }
+  .hike-choice li { grid-template-columns: 52px minmax(0, 1fr); gap: 10px; }
+  .trail-thumb { width: 52px; height: 52px; }
   .note { margin: 18px 0 54px; font-size: .73rem; }
 }
 
