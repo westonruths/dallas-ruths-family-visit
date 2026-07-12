@@ -109,18 +109,20 @@ h1 { max-width: 620px; margin: 0; font-size: clamp(3.2rem, 6.4vw, 5.8rem); line-
 .itinerary-grid { display: grid; grid-template-columns: 1.35fr .95fr; gap: 18px; }
 .saturday-stack { display: grid; gap: 18px; }
 .itinerary-card { padding: 28px; border: 1px solid var(--line); border-radius: 20px; background: var(--white); }
-.itinerary-card.chateau { min-height: 390px; padding: clamp(30px, 5vw, 52px); color: #fff; background: linear-gradient(140deg, #253a34, #315f50); border: 0; }
+.itinerary-card.csa-feature { min-height: 390px; padding: clamp(30px, 5vw, 52px); color: #fff; background: linear-gradient(140deg, #253a34, #315f50); border: 0; }
 .time-label { margin-bottom: 14px; color: var(--accent); font-size: .72rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
-.chateau .time-label { color: #ffb6aa; }
+.csa-feature .time-label { color: #c9e5d4; }
 .itinerary-card h4 { margin: 0; font-size: clamp(1.55rem, 3vw, 2.35rem); line-height: 1.08; letter-spacing: -.04em; }
 .itinerary-card > p { margin: 14px 0 0; color: var(--muted); }
-.chateau > p { max-width: 600px; color: rgba(255,255,255,.78); }
+.csa-feature > p { max-width: 600px; color: rgba(255,255,255,.78); }
 .detail-pills { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
 .detail-pills span { padding: 8px 11px; border-radius: 999px; background: rgba(255,255,255,.1); font-size: .76rem; font-weight: 600; }
 .small-note { font-size: .8rem; }
-.text-links { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 16px; }
-.text-links a { color: #fff; font-size: .82rem; font-weight: 700; text-underline-offset: 4px; }
-.farm { background: #faf7f3; }
+.lavender { background: #f8f1fa; border-color: #ead8ee; }
+.lavender .time-label { color: #7a457e; }
+.lavender-meta { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 7px; }
+.lavender-meta span { padding: 7px 9px; border-radius: 999px; color: #603b65; background: rgba(122,69,126,.1); font-size: .7rem; font-weight: 700; }
+.lavender-link { display: inline-block; margin-top: 18px; color: var(--ink); font-size: .8rem; font-weight: 700; text-underline-offset: 4px; }
 .flight { color: #fff; background: #222; border: 0; }
 .flight .time-label { color: #ffb6aa; }
 .flight > p { color: rgba(255,255,255,.65); font-size: .8rem; }
@@ -168,7 +170,7 @@ footer { padding-block: 36px; border-top: 1px solid var(--line); background: var
   .quick-plan dl { grid-template-columns: 1fr 1fr; }
   .quick-plan dl div { padding: 0 14px 0 0; border: 0; }
   .itinerary-grid { grid-template-columns: 1fr; }
-  .itinerary-card.chateau { min-height: 0; }
+  .itinerary-card.csa-feature { min-height: 0; }
   .footer-inner { grid-template-columns: 1fr; }
   .credits { grid-column: auto; }
 }
