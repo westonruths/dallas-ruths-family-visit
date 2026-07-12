@@ -4,7 +4,7 @@ A public, mobile-friendly Thursday–Saturday visit plan covering meals, three f
 
 - Meal plan: Thursday dinner through Saturday breakfast
 - Friday hike: Franklin Falls, Snoqualmie Falls, or Ephemeral and Big Leaf Loop
-- Friday CSA pickup: 12:00–6:00 p.m.; farm name and exact pickup time TBD
+- Friday CSA pickup: Ecolibrium Farms, 12:00–6:00 p.m.; exact pickup time TBD
 - Saturday Lavender Festival: JB Family Growers, July 18, 9:00–10:30 a.m. planned visit; festival open 9:00 a.m.–9:00 p.m.; $9 for ages 12+
 - Saturday departure: leave about 12:15 p.m. for the 3:21 p.m. flight
 
