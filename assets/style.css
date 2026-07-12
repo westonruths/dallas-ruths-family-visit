@@ -23,7 +23,6 @@ a:hover, a:focus-visible { color: var(--accent); }
 .eyebrow { margin: 0 0 12px; color: var(--accent); font-size: .75rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
 h1, h2, p { text-wrap: pretty; }
 h1 { margin: 0; font-size: clamp(3.1rem, 9vw, 5.8rem); line-height: .94; letter-spacing: -.065em; }
-.intro > p:last-child { max-width: 430px; margin: 20px 0 0; color: var(--muted); font-size: clamp(1rem, 2vw, 1.15rem); }
 
 .agenda { border-top: 2px solid var(--ink); }
 .agenda-day { display: grid; grid-template-columns: 118px minmax(0, 1fr); border-bottom: 1px solid var(--line); }
