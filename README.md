@@ -3,7 +3,7 @@
 A public, mobile-friendly Thursday–Saturday visit plan covering meals, three family-ready Friday hike options, a flexible Friday CSA pickup, the Saturday Lavender Festival, and departure logistics.
 
 - Meal plan: Thursday dinner through Saturday breakfast
-- Friday hike: Snohomish River Viewpoint at Lord Hill or Blue Jay Way & Babe’s Way at Soaring Eagle — new, non-I-90 options — or the family’s 5/5 Paradise Valley repeat
+- Friday hike: strict 4.5+ AllTrails shortlist — May Valley Short Loop, Squak Mountain Fireplace Trail, or the family’s 4.5/5 Paradise Valley repeat; expect the first two to be steep carrier hikes
 - Friday CSA pickup: Ecolibrium Farms, 12:00–6:00 p.m.; exact pickup time TBD
 - Saturday Lavender Festival: JB Family Growers, July 18, 9:00–10:30 a.m. planned visit; festival open 9:00 a.m.–9:00 p.m.; $9 for ages 12+
 - Saturday departure: leave about 12:15 p.m. for the 3:21 p.m. flight
